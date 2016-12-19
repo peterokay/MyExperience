@@ -330,11 +330,11 @@ function playSlide(){
     if($('#playImg').attr('alt')=='play'){
         clearInterval(tellmeSlideTimer);
         tellmeSlideTimer=window.setInterval(slideTellmeInterface,3500);   
-        $('#playImg').attr('src','/assets/img/icon/ic_pause_circle_outline_white_24dp_1x.png');
+        $('#playImg').attr('src','../img/icon/ic_pause_circle_outline_white_24dp_1x.png');
         $('#playImg').attr('alt','pause');        
     }else{
         clearInterval(tellmeSlideTimer);
-        $('#playImg').attr('src','/assets/img/icon/ic_play_circle_outline_white_24dp_1x.png');
+        $('#playImg').attr('src','../img/icon/ic_play_circle_outline_white_24dp_1x.png');
         $('#playImg').attr('alt','play');        
     }       
 

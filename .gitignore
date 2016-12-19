@@ -1,3 +1,11 @@
 _site
 .sass-cache
 .jekyll-metadata
+node_modules
+Gemfile
+Gemfile.lock
+package.json
+web.config
+.vscode
+
+

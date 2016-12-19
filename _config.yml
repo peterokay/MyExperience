@@ -13,15 +13,39 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: test
+title: 我的經歷
 email: chiayig@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  test
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://peterokay.github,io/MyExperience" # the base hostname & protocol for your site
+  我的開發經歷
+baseurl: "/_site" # the subpath of your site, e.g. /blog
+url: "https://peterokay.github,io" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  peterokay
 
 # Build settings
 markdown: kramdown
 theme: minima
+
+sections:
+  - title: '關於我'    
+    id: 'about_me'
+
+  - title: '物品管理(APP)'
+    id: 'thing'
+
+  - title: 'TellMe你說我聽(Web+Hybrid APP)'
+    id: 'tellme'
+
+  - title: 'ITree互助平台(Web)'
+    id: 'itree'
+
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - package.json
+  - Gruntfile.js
+  - node_modules  

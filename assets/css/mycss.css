@@ -349,7 +349,7 @@ body {
 
 
 .landing-section{
-  background-image: url('../img/landing.JPG');
+  background-image: url('/MyExperience/assets/img/landing.JPG');
   background-size: 100% auto;
   padding-top:74%;
   background-repeat:no-repeat; 

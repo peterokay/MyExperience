@@ -313,8 +313,7 @@ function slideTellmeInterface(){
     if(slideNo<7){        
     }else{
         slideNo=0;
-    }                 
-    console.log(slideNo);
+    }                     
     $("#tellme-interface li[role='presentation']:eq("+slideNo+") a").trigger('click'); 
      
 }

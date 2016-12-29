@@ -42,10 +42,10 @@ $.each($("div[name='right-panel']"),function(i,v){
     var inview = new Waypoint.Inview({
     element: v,
     enter: function(direction) {
-        $(this.element).addClass('animated fadeInRightBig animate-base-setting-fast');                    
+        //$(this.element).addClass('animated fadeInRightBig animate-base-setting-fast');                    
     },
     exited: function(direction) {
-        $(this.element).removeClass('animated fadeInRightBig animate-base-setting-fast');
+        //$(this.element).removeClass('animated fadeInRightBig animate-base-setting-fast');
     }
     });
 });

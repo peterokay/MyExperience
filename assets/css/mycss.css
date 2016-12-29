@@ -225,6 +225,7 @@ body {
   color:gray;  
   border-bottom:thin none rgba(255, 252, 91, 0.27);
   border-bottom-style:solid;  
+  font-size:xx-small;  
 }
 
 .md5-tellme-text-color{
@@ -398,20 +399,21 @@ body {
   display: table-cell;
   vertical-align: middle;
   height: 600px;
-  padding: 0px 10px;
+  padding: 0px 5px;
 }
 
 .tellme-specification{
-  padding: 30px 40px;
+  padding: 30px 38px;
 }
 
 .itree-specification{
-  padding: 30px 40px;
+  padding: 30px 38px;
 }
 
-.thing-apk{
+.apk{
   padding: 10px 0px;
   color: gray;
+  font-size: xx-small;
 }
 .thing-interface{
   float: right;
@@ -557,3 +559,36 @@ body {
 .nav>li>a:focus, .nav>li>a:hover{
   background-color: transparent !important;
 }
+
+/*small screen*/
+@media (max-width: 480px){
+  h2{
+    font-size: 24px !important;
+  }  
+  h3{
+    font-size: 16px !important;
+  }  
+  h4{
+    font-size: 14px !important;
+  }
+  h5{
+    font-size: 11px !important;
+  }  
+  p,span,a{
+    font-size: 12px !important;
+  }  
+
+  .row-narrow-padding{
+    padding: 0px 30px;
+  }
+
+  .tellme-specification,.itree-specification{
+    padding: 30px 18px;
+  }
+
+  .landing-text-sub{
+    margin-top: -5px;
+  }
+
+}
+/*small screen end*/

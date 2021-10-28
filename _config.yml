@@ -30,6 +30,9 @@ sections:
   - title: '關於我'    
     id: 'about_me'
 
+  - title: '氣象小叮嚀(Web+Line)'
+    id: 'weather'
+    
   - title: '物品管理(APP)'
     id: 'thing'
 

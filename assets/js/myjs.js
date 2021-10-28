@@ -177,6 +177,15 @@ $('#about_me,#about_me_play').click(function() {
     })        
 });
 
+$('#weather').click(function() {        
+    Jump('#weather_section', {
+    duration: 1000,
+    offset: -50,
+    callback: undefined,
+    a11y: false
+    })        
+});
+
 $('#itree').click(function() {        
     Jump('#itree_section', {
     duration: 1000,

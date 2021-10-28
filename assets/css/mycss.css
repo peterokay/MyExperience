@@ -3,6 +3,11 @@ body {
 }
 
 /*container*/
+.weather-container {
+  background-color:#3B3328;  
+  padding-top: 20px;
+  padding-bottom: 100px;  
+}
 .thing-container {
   background-color:#3B3328;  
   padding-top: 20px;

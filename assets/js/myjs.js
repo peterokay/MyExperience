@@ -235,7 +235,7 @@ datasets: [
             "#FAD223"
         ],
         borderWidth: 0,
-        data: [4,2.3,1.5,2.3],
+        data: [4,2.3,1.5,6.9],
     }
 ]        
 };
@@ -280,7 +280,7 @@ var myPersonalityData = {
             pointBorderColor: "#FC660B",
             pointHoverBackgroundColor: "#FC660B",
             pointHoverBorderColor: "rgba(31, 184, 244, 1)",
-            data: [4,4,3,3,4]
+            data: [69,88,81,69,81]
         }
     ]
 };

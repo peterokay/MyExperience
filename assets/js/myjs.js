@@ -270,7 +270,7 @@ options: {
 
 
 var myPersonalityData = {
-    labels: ["認真負責", "工作控管", "執行能力", "分析思考", "自我提升"],
+    labels: ["團隊精神", "溝通協調", "同理關懷", "抗壓能力", "分析思考"],
     pointStyle:'star',
     datasets: [
         {            
@@ -280,7 +280,7 @@ var myPersonalityData = {
             pointBorderColor: "#FC660B",
             pointHoverBackgroundColor: "#FC660B",
             pointHoverBorderColor: "rgba(31, 184, 244, 1)",
-            data: [69,88,81,69,81]
+            data: [88,69,69,100,69]
         }
     ]
 };

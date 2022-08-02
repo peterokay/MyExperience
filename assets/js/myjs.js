@@ -280,7 +280,7 @@ var myPersonalityData = {
             pointBorderColor: "#FC660B",
             pointHoverBackgroundColor: "#FC660B",
             pointHoverBorderColor: "rgba(31, 184, 244, 1)",
-            data: [88,69,69,100,69]
+            data: [94,75,75,100,88]
         }
     ]
 };

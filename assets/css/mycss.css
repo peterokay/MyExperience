@@ -618,3 +618,7 @@ body {
 
 }
 /*small screen end*/
+
+#contact_block a:visited{
+  color:lightcyan;
+} 
